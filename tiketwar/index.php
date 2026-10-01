@@ -68,5 +68,14 @@
         $namaKonser = "Dewa 19 Reunion Show";
         echo "Konser pilihan: " . $namaKonser;
     ?>
+
+    <!-- LATIHAN DEBUGGING #9 -->
+    <br>
+    <?php
+        $tiket = ["nama" => "VIP", "harga" => 500000];
+        echo $tiket["harga"];
+    ?>
+
+
 </body>
 </html>
