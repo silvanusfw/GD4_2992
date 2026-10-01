@@ -36,5 +36,11 @@
     <?php
         echo "Tiket akan segera dibuka!";
     ?>
+
+    <!-- LATIHAN DEBUGGING #8 -->
+    <?php
+        $namaKonser = "Dewa 19 Reunion Show";
+        echo "Konser pilihan: " . $namaKonser;
+    ?>
 </body>
 </html>
