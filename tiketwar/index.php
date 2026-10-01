@@ -120,6 +120,14 @@
     <p>Status: <?php echo $statusTiket; ?></p>
     <p>Kategori: <?php echo $badge; ?></p>
 
-
+    <!-- LATIHAN DEBUGGING #11 -->
+    <?php 
+        $kategori = "VIP";
+            switch ($kategori) {
+            case "Festival": echo "Festival Pass"; break;
+            case "VIP": echo "VIP Access"; break;
+            case "Reguler": echo "Reguler"; break;
+        }
+    ?>
 </body>
 </html>
