@@ -17,13 +17,22 @@
     <p>Harga: Rp<?php echo $hargaTiket; ?></p>
     <p>Sisa tiket: <?php echo $sisaTiket; ?></p>
 
+    <!-- LATIHAN DEBUGGING #7 -->
+    <?php
+        $namaArtis = "NCT Dream";
+        echo "Konser " . $namaArtis;
+    ?>
+
+    <br><br>
+    
     <?php
         echo "Selamat datang di TiketWar - war tiket konser paling gercep!";
         echo "<br>Saksikan idola favorit Anda tanpa takut kehabisan tiket!<br>";
     ?>
 
+    <!-- LATIHAN DEBUGGING #6 -->
     <?php
-        echo "Tiket akan segera dibuka!"
+        echo "Tiket akan segera dibuka!";
     ?>
 </body>
 </html>
