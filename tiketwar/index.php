@@ -140,6 +140,13 @@
         }
     ?>
 
-
+    <!-- LATIHAN DEBUGGING #12 -->
+    <?php 
+        $sisaTiket = 5;
+        while ($sisaTiket > 0) {
+            echo "<br> Tiket tersisa: $sisaTiket";
+            $sisaTiket--;
+        }
+    ?>
 </body>
 </html>
