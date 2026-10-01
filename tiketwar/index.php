@@ -85,6 +85,18 @@
 
     <p>Harga asli: Rp<?php echo $hargaAsli; ?></p>
     <p>Setelah diskon <?php echo $persenDiskon; ?>%: Rp<?php echo $hargaSetelahDiskon;?></p>
-    
+
+    <!-- LATIHAN DEBUGGING #10 -->
+    <?php
+        $jumlahTiket = "2";
+        $totalHarga = $jumlahTiket + $jumlahTiket + $jumlahTiket;
+        echo $totalHarga; // menghasilkan 6, bukan "222"
+        echo "<br>";
+        $kodePromo = "2" . "2" . "2";
+        echo $kodePromo; // ternyata hasilnya "222"
+    ?>
+
+
+
 </body>
 </html>
