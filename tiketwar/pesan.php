@@ -3,7 +3,8 @@
 <head><title>Pesan Tiket - TiketWar</title></head>
 <body>
     <h1>Form Pemesanan Tiket</h1>
-    <form action="prosesPesan.php" method="post">
+
+    <form action="prosesPesan.php" method="post" enctype="multipart/form-data">
         <p>
             <label>Nama Pembeli:</label><br>
             <input type="text" name="namaPembeli" required>
@@ -20,10 +21,18 @@
             <label>Jumlah Tiket:</label><br>
             <input type="number" name="jumlahTiket" min="1" max="4" required>
         </p>
+
+        <!-- FILE -->
+        <p>
+            <label>Bukti Pembayaran:</label><br>
+            <input type="file" name="buktiBayar" accept=".jpg,.jpeg,.png" required>
+        </p>
+
         <button type="submit">War Sekarang!</button>
     </form>
 
     <!-- LATIHAN DEBUGGING #13 -->
+    <br>
     <form action="prosesPesan.php" method="post">
         <input type="text" name="namaPembeli">
         <input type="submit">
