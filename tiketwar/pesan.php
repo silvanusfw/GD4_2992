@@ -22,5 +22,11 @@
         </p>
         <button type="submit">War Sekarang!</button>
     </form>
+
+    <!-- LATIHAN DEBUGGING #13 -->
+    <form action="prosesPesan.php" method="post">
+        <input type="text" name="namaPembeli">
+        <input type="submit">
+    </form>
 </body>
 </html>

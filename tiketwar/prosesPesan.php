@@ -11,5 +11,9 @@
     <p>Nama: <?php echo $nama; ?></p>
     <p>Konser: <?php echo $konser; ?></p>
     <p>Jumlah tiket: <?php echo $jumlah; ?></p>
+
+    <!-- LATIHAN DEBUGGING #13 -->
+    <?php echo $_POST["namaPembeli"]; ?>
+
 </body>
 </html>
