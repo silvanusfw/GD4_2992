@@ -11,18 +11,18 @@
     <form action="prosesTambah.php" method="post" enctype="multipart/form-data">
         <p>
             <label>Nama Konser:</label><br>
-            <input type="text" name="namaKonser" required>
+            <input type="text" name="namaTiket" required>
         </p>
         <p>
             <label>Pilih Kategori:</label><br>
-            <select name="pilihKategori" required>
+            <select name="kategoriTiket" required>
                 <option value="VIP">VIP</option>
                 <option value="Reguler">Reguler</option>
             </select>
         </p>
         <p>
-            <label>Hargas Tiket:</label><br>
-            <input type="number" name="hargaTiket" min="0"   required>
+            <label>Harga Tiket:</label><br>
+            <input type="number" name="hargaTiket" min="0" required>
         </p>
 
         <p>
